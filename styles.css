@@ -3,6 +3,7 @@ p{
   margin-left: 20px}
 #name{
   text-align: center;
+  padding: 5px;
   font-size: 40px;
   font-family: "Times New Roman";}
 .highlight{
@@ -13,6 +14,8 @@ p < strong{
   background-color:red;}
 li::after{
   content: '*';}
+ol{
+  list-style-type: square;}
 
   
   
