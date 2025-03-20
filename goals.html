@@ -14,28 +14,44 @@
       <a herf=rivetenn.github.io/index.html>Cover Letter</a>
     </li>
   </header>
-<p>Contact Me:</p>
-<form action="https://wp.zybooks.com/form-viewer.php">
-  <label for="first">First Name</label>
-  <input type="text" name="first">
-  <label for="last">Last Name</label>
-  <input type="text" name="last"><br>
+<h2>Contact Me<h2>
+  <hr>
+<form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+  <p>
+    <label for="first">First Name</label>
+    <input type="text" id="first" name="first">
+    <label for="last">Last Name</label>
+    <input type="text" id="last" name="last"><br>  
+  </p>
   <label for="CN">Company Name</label>
-  <input type="text" name="CN"><br>
+  <input type="text" id="CN" name="CN"><br>
   <label for="mail">Email</label><br>
-  <input type="email" name="mail" value="example@gmail.com"><br>
+  <input type="email" id="mail" name="mail" value="example@gmail.com"><br>
   <label for="pn">Phone Number</label><br>
-  <input type="phone" name="pn" value="1234567890"><br>
+  <input type="phone" id="pn" name="pn" value="1234567890"><br>
+  
   <label for="message">Message</label><br>
-  <textarea rows="20" cols="20" name="message">Place your message here...</textarea><br>
+  <textarea rows="20" cols="20" id="message" name="message">Place your message here...</textarea><br>
+  
   <p>Preferred Contact Hours</p>
-  <label for="AM">A.M.</label>
-  <input type="radio" name="AM" value="AM">
-  <label for="PM">P.M.</label>
-  <input type="radio" name="PM" value="PM">
-  <label for="AY">Anytime</label>
-  <input type="radio" name="AY" value="Anytime">
-
+  <p>
+    <label for="AM">A.M.</label>
+    <input type="radio" id="AM" name="ContactHours" value="AM">
+    <label for="PM">P.M.</label>
+    <input type="radio" id="PM" name="ContactHours" value="PM">
+    <label for="AY">Anytime</label>
+    <input type="radio" id="AY" name="ContactHours" value="Anytime">  
+  </p>
+  <p>
+  <p>Prefered Contact Method?</p>
+    <label for="phonec">Phone</label>
+    <input type="radio" id="phonec" name="ContactMethod" value="Phone">
+    <label for="emailc">Email</label>
+    <input type="radio" id="emailc" name="ContactMethod" value="Email">
+    <label for="textc">Text</label>
+    <input type="radio" id="textc" name="ContactMethod" value="Text">     
+  </p>
+  <input type="submit" value="Submit">
   
 
 </form>
