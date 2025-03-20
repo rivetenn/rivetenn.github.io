@@ -1,1 +1,18 @@
+p{
+  text-align: left;
+  margin-left: 20px}
+#name{
+  text-align: center;
+  font-size: 40px;
+  font-family: "Times New Roman";}
+.highlight{
+  background-color: yellow;}
+*{
+  color: black;}
+p < strong{
+  background-color:red;}
+li::after{
+  content: '*';}
 
+  
+  
