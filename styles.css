@@ -26,6 +26,8 @@ form > label{
   font-size: 14px;}
 body{
   background-color: green;}
+.bullets::before{
+    content:"• ";}
 
   
   
