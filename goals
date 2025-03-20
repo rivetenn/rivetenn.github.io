@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang=us>
+<head>
+  <meta charset="UTF=8">
+  <title>Goals</title>
+  <a rel="stylesheet"><herf="styles.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1 id="name">Cody Pickering</h1>
+    <li>
+      <a href=rivetenn.github.io/Resume>Resume</a>
+      <a herf=rivetenn.github.io/index.html>Cover Letter</a>
+    </li>
+  </header>
 
+
+
+
+</main>
+<footer>
+  
+</footer>
+</body>
+</html>
