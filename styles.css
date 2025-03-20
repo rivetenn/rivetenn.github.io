@@ -10,7 +10,7 @@ p{
   background-color: yellow;}
 *{
   color: black;}
-p < strong{
+p > strong{
   background-color:red;}
 li::after{
   content: '*';}
@@ -22,6 +22,8 @@ ol{
   padding: 5px;
   text-align: center;
 }
+form > label{
+  font-size: 14px;}
 
   
   
