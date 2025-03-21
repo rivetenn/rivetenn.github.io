@@ -28,6 +28,9 @@ body{
   background-color: green;}
 .bullets::before{
     content:"• ";}
+table, th, td { 
+   border: 1px solid gray; 
+} 
 
   
   
