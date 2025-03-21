@@ -7,7 +7,8 @@
     <script>
       function getDate(){
       let now = new Date();
-      document.getElementById("currentTime").innerHTML = now;}
+      document.getElementById("currentTime").innerHTML = now;
+      window.onload = getDate;}
     </script>
 </head>
 <body>
@@ -20,7 +21,7 @@
     </nav>
   </header><hr>
   <script>Console.log("Opening resume on " + now)</script>
-  <div id=currentTime display:flex justify-content:center></div>
+  <div id="currentTime" style="display: flex; justify-content: center;"></div>
   <h3 class=highlight>Experience</h3>
   <article>
     <section class=bullets>
