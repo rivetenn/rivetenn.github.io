@@ -25,7 +25,7 @@ ul{
 form > label{
   font-size: 14px;}
 body{
-  background-color: green;}
+  background-color: white;}
 .bullets::before{
     content:"• ";}
 table, th, td { 
