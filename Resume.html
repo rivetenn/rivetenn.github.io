@@ -7,22 +7,23 @@
     <script>
       function getDate(){
       let now = new Date();
-      document.getElementById("currentTime").innerHTML = now;
-      window.onload = getDate;}
+      document.getElementById("currentTime").innerHTML = now;}
+      window.onload = getDate;
+      console.log("Opening resume page")
     </script>
 </head>
 <body>
   <header>
     <h1 id=name>Cody Pickering</h1>
-    <h2><span display:flex; justify-content:center>Resume</span></h2>
+    <h2><span style="display:flex; justify-content:center;">Resume</span></h2>
     <nav>
       <a href=https://rivetenn.github.io/index>Cover Page</a> |
       <a href=https://rivetenn.github.io/goals>Goals</a>
     </nav>
   </header><hr>
-  <script>Console.log("Opening resume on " + now)</script>
   <div id="currentTime" style="display: flex; justify-content: center;"></div>
   <h3 class=highlight>Experience</h3>
+<main>
   <article>
     <section class=bullets>
       <p>
@@ -33,12 +34,13 @@
         Won New York Times golden globe for performance.
       </p><br>
     </section>
-    <ul>Achievements
+    <h4>Achievements</h4>
       <li>Golden Globe Winner</li>
       <li>3 Olympic Gold Medals</li>
       <li>National Shoe Shine award</li>
     </ul>
   </article>
+</main>
 <table>
   <caption>Shoe site sales</caption>
   <tr>
