@@ -26,8 +26,8 @@ form > label{
   font-size: 14px;}
 body{
   background-color: white;}
-.bullets::before{
-    content:"• ";}
+.bullets p::before {
+  content: "• ";}
 table, th, td { 
    border: 1px solid gray; 
 } 
