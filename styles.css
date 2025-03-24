@@ -16,6 +16,7 @@ li::after{
   content: '*';}
 ul{
   list-style-type: square;}
+
 .center {
   margin: auto;
   width: 50%;
